@@ -15,5 +15,9 @@ crons = ["*/2 * * * *", "*/1 * * * *"]
 [vars]
 NODE_ENV = "production"
 
+[[rules]]
+type = "Text"
+globs = ["**/*.txt", "**/*.md"]
+
 [observability]
 enabled = true
