@@ -12,10 +12,6 @@ migrations_dir = "migrations"
 [triggers]
 crons = ["*/2 * * * *", "*/1 * * * *"]
 
-[[rules]]
-type = "Text"
-globs = ["**/*.txt", "**/*.md"]
-
 [vars]
 NODE_ENV = "production"
 
